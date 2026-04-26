@@ -175,23 +175,15 @@ const EVENTS = [
 ];
 
 const ARCHIVE = [
-  { id: 'a1', title: 'Alive VI', date: 'Nov 2025', tag: 'Headline', img: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=900&q=80' },
-  { id: 'a2', title: 'Smoke & Strings', date: 'Oct 2025', tag: 'Jazz Night', img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=900&q=80' },
-  { id: 'a3', title: 'Open Mic III', date: 'Sep 2025', tag: 'Open', img: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=900&q=80' },
-  { id: 'a4', title: 'Winter Reverie', date: 'Dec 2025', tag: 'Themed', img: 'https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=900&q=80' },
-  { id: 'a5', title: 'Acoustic Hour', date: 'Aug 2025', tag: 'Intimate', img: 'https://images.unsplash.com/photo-1471478331149-c72f17e33c73?w=900&q=80' },
-  { id: 'a6', title: 'Brass & Velvet', date: 'Jul 2025', tag: 'Jazz Night', img: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?w=900&q=80' },
-  { id: 'a7', title: 'First Light', date: 'May 2025', tag: 'Showcase', img: 'https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=900&q=80' },
-  { id: 'a8', title: 'Alive V', date: 'Apr 2025', tag: 'Headline', img: 'https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=900&q=80' },
+{ id: 'a1', title: 'Spotify Vol 3', date: 'October 2025', tag: 'Headline', img: 'https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=900&q=80' },
+  { id: 'a2', title: 'Jazz Nigth', date: 'February 2026', tag: 'Jazz Night', img: 'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=900&q=80' },
+  { id: 'a3', title: 'Alive Concert', date: 'March 2026', tag: 'Open', img: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=900&q=80' },
 ];
 
 const MEMBERS = [
-  { id: 'm1', name: 'Aizada K.', role: 'Lead Vocalist', joined: '2023', focus: 'Jazz · Soul', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80' },
-  { id: 'm2', name: 'Daulet B.', role: 'Pianist · Arranger', joined: '2022', focus: 'Bossa · Standards', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80' },
-  { id: 'm3', name: 'Madina S.', role: 'Vocalist', joined: '2024', focus: 'R&B · Indie', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80' },
-  { id: 'm4', name: 'Yerlan T.', role: 'Guitarist', joined: '2023', focus: 'Acoustic · Funk', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80' },
-  { id: 'm5', name: 'Aliya N.', role: 'Drummer', joined: '2024', focus: 'Latin · Fusion', img: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80' },
-  { id: 'm6', name: 'Rauan I.', role: 'Bassist', joined: '2022', focus: 'Jazz · Soul', img: 'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=600&q=80' },
+{ id: 'm1', name: 'Symbat Demelkhan.', role: 'President', joined: '2022', focus: 'Jazz · Soul', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80' },
+  { id: 'm2', name: 'Yezken Baibolov', role: 'Vice-president', joined: '2024', focus: 'Bossa · Standards', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80' },
+  { id: 'm3', name: 'Temirlan Askarbos', role: 'Vice-president', joined: '2025', focus: 'R&B · Indie', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80' },
 ];
 
 const NAV = [
