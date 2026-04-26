@@ -152,7 +152,7 @@ const EVENTS = [
     time: '19:00',
     venue: 'Main Library Steps',
     tag: 'Headline',
-    blurb: 'Listen to Vocal's Fav songs',
+    blurb: "Listen to Vocal's Fav songs",
     color: '#22180c',
     progression: [[64,0.5],[67,0.5],[72,1],[71,0.5],[67,0.5],[64,1.5]],
     style: 'guitar',
