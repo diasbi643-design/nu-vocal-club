@@ -89,7 +89,7 @@ function HomeHeroBento({ theme, density, onRoute, onPlay, onStop, playingId }) {
         <div style={{ display:'flex', alignItems:'center', gap:10, color:theme.text }}>
           <Icon name="mic" size={18}/>
           <div style={{fontFamily:'"Bebas Neue", sans-serif', fontSize:18, letterSpacing:'.05em'}}>
-            92 members<br/>
+            50 members<br/>
             <span style={{color:theme.dim, fontSize:11, letterSpacing:'.18em'}}>VOCALISTS · INSTRUMENTALISTS</span>
           </div>
         </div>
@@ -336,10 +336,10 @@ function HomeHeroSplit({ theme, density, onRoute }) {
           <div style={{ position:'absolute', inset:0, padding: D.pad, display:'flex', flexDirection:'column', justifyContent:'flex-end', color:'#f3ece2' }}>
             <Tag theme={theme}>Next show</Tag>
             <div style={{ fontFamily:'"Bebas Neue", sans-serif', fontSize:48, letterSpacing:'.02em', marginTop:10, lineHeight:1 }}>
-              Jazz, After Dark
+              Alive Concert
             </div>
             <div style={{ fontFamily:'"Cormorant Garamond", serif', fontStyle:'italic', fontSize:16, color: theme.accent, marginTop:4 }}>
-              Apr 30 · Block 8 Lounge
+              March 28 · Main Hall
             </div>
           </div>
         </div>
@@ -394,9 +394,8 @@ function HomeHeroPoster({ theme, density, onRoute }) {
             Voices,<br/>Live.
           </h1>
           <div style={{ marginTop:14, display:'flex', alignItems:'center', gap:18, fontFamily:'"Space Grotesk", sans-serif', fontSize:11, letterSpacing:'.22em', textTransform:'uppercase' }}>
-            <span>92 Members</span>
+            <span>50 Members</span>
             <span style={{color:theme.accent}}>✦</span>
-            <span>4 Ensembles</span>
             <span style={{color:theme.accent}}>✦</span>
             <span>One Stage</span>
           </div>
@@ -409,7 +408,7 @@ function HomeHeroPoster({ theme, density, onRoute }) {
         }}>
           <div>
             <div style={{ fontFamily:'"Space Grotesk", sans-serif', fontSize:10, letterSpacing:'.22em', textTransform:'uppercase', color:'#d8c8a8' }}>Now playing</div>
-            <div style={{ fontFamily:'"Bebas Neue", sans-serif', fontSize:24, letterSpacing:'.04em' }}>Jazz, After Dark · Apr 30</div>
+            <div style={{ fontFamily:'"Bebas Neue", sans-serif', fontSize:24, letterSpacing:'.04em' }}>Alive Concert · March 28</div>
           </div>
           <button onClick={()=>onRoute('events')} style={{
             padding:'14px 22px', borderRadius:999,
