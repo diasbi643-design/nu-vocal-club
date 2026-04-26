@@ -424,5 +424,53 @@ function HomeHeroPoster({ theme, density, onRoute }) {
     </div>
   );
 }
+// ───────────────────────────────────────────────────────────
+// YouTube Section
+// ───────────────────────────────────────────────────────────
+function YouTubeSection({ theme, density }) {
+  const D = density;
+  // ↓ CHANGE THIS to your YouTube video ID
+  // e.g. for https://www.youtube.com/watch?v=dQw4w9WgXcQ → ID is dQw4w9WgXcQ
+  const VIDEO_ID = 'dQw4w9WgXcQ';
 
+  return (
+    <div style={{ padding:`${D.gap*2}px ${D.pad}px` }}>
+      <div style={{ marginBottom: D.gap*1.2 }}>
+        <div style={{
+          fontFamily:'"Space Grotesk", sans-serif', fontSize:10,
+          letterSpacing:'.22em', textTransform:'uppercase', color: theme.accent,
+          marginBottom:10,
+        }}>
+          On stage
+        </div>
+        <h2 style={{
+          margin:0, fontFamily:'"Bebas Neue", sans-serif',
+          fontSize: D.hero*0.9, lineHeight:0.95, letterSpacing:'-.005em',
+          textTransform:'uppercase', color: theme.text,
+        }}>
+          Watch the <em style={{ fontFamily:'"Cormorant Garamond", serif', fontStyle:'italic', fontWeight:400, color: theme.accent }}>show</em>
+        </h2>
+      </div>
+      <div style={{
+        borderRadius: D.radius, overflow:'hidden',
+        border:`1px solid ${theme.border}`,
+        position:'relative', width:'100%',
+        paddingTop:'56.25%', // 16:9 ratio
+        background: theme.cardBg,
+      }}>
+        <iframe
+          src={`https://www.youtube.com/embed/${VIDEO_ID}?rel=0&modestbranding=1`}
+          title="NU Vocal Club"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          style={{
+            position:'absolute', top:0, left:0,
+            width:'100%', height:'100%',
+            border:'none',
+          }}
+        />
+      </div>
+    </div>
+  );
+}
 Object.assign(window, { HomePage });
