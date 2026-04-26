@@ -181,9 +181,6 @@ const ARCHIVE = [
 ];
 
 const MEMBERS = [
-{ id: 'm1', name: 'Symbat Demelkhan.', role: 'President', joined: '2022', focus: 'Jazz · Soul', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80' },
-  { id: 'm2', name: 'Yezken Baibolov', role: 'Vice-president', joined: '2024', focus: 'Bossa · Standards', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80' },
-  { id: 'm3', name: 'Temirlan Askarbos', role: 'Vice-president', joined: '2025', focus: 'R&B · Indie', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=600&q=80' },
 ];
 
 const NAV = [
