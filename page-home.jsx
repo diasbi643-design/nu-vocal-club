@@ -478,4 +478,4 @@ function YouTubeSection({ theme, density }) {
     </div>
   );
 }
-Object.assign(window, { HomePage });
+Object.assign(window, { HomePage, YouTubeSection });
