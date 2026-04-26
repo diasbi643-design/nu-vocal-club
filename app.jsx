@@ -64,7 +64,8 @@ const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "mood": "sepia",
   "density": "airy",
   "heroVariant": "poster",
-  "showTicker": true
+  "showTicker": false
+
 }/*EDITMODE-END*/;
 
 // ───────────────────────────────────────────────────────────
