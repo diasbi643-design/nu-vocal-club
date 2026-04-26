@@ -212,10 +212,9 @@ function Ticker({ theme, onCta, target, eventTitle, venue }) {
     `🎤 ${eventTitle}`,
     `📍 ${venue}`,
     'EARLY ACCESS — MEMBERS',
-    'DOORS · 19:30',
+    'DOORS · 19:00',
     'LIVE BAND · 4 SETS',
-    'JAZZ NIGHT · APR 30',
-    'OPEN MIC · WEEKLY',
+    'Alive Concert ',
   ];
   const stream = [...items, ...items, ...items];
   return (
