@@ -436,7 +436,7 @@ function YouTubeSection({ theme, density }) {
   const D = density;
   // ↓ CHANGE THIS to your YouTube video ID
   // e.g. for https://www.youtube.com/watch?v=dQw4w9WgXcQ → ID is dQw4w9WgXcQ
-  const VIDEO_ID = '1b406Ewkn5c';
+  const VIDEO_ID = 'RIQ0szSHxW0';
 
   return (
     <div style={{ padding:`${D.gap*2}px ${D.pad}px` }}>
