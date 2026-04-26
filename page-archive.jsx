@@ -178,8 +178,7 @@ function Lightbox({ theme, items, index, onClose, onIndex }) {
               fontFamily:'"Space Grotesk", sans-serif', fontSize:14, lineHeight:1.7,
               color:'rgba(243,236,226,0.7)', textWrap:'pretty',
             }}>
-              A night that stayed with us. Twelve performers, three encores,
-              and a room that didn't want to leave when the house lights came up.
+           An unforgettable night with the NU Vocal Club. Our biggest concert of the year.
             </p>
           </div>
           <div style={{
