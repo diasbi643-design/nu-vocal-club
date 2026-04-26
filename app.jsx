@@ -162,9 +162,10 @@ const EVENTS = [
 ];
 
 const ARCHIVE = [
-{ id: 'a1', title: 'Spotify Vol 3', date: 'October 2025', tag: 'Headline', img: 'https://i.ibb.co/CksknKw/VOCAL-111.jpg' },
-  { id: 'a2', title: 'Jazz Nigth', date: 'February 2026', tag: 'Jazz Night', img: 'https://i.ibb.co/sp3Fjzdk/st-jazznight-64.jpg' },
-  { id: 'a3', title: 'Alive Concert', date: 'March 2026', tag: 'Open', img: 'https://i.ibb.co/RT8RkbCb/IMG-4475.jpg' },
+{ id: 'a1', title: 'Spotify Vol 3', date: 'October 2025', tag: 'Headline', img: 'https://i.ibb.co/CksknKw/VOCAL-111.jpg', blurb: 'A curated evening of student-performed covers, bringing the most-streamed songs of the year to life on stage. Voices, rhythm, and energy — all in one room.' },
+  { id: 'a2', title: 'Jazz Nigth', date: 'February 2026', tag: 'Jazz Night', img: 'https://i.ibb.co/sp3Fjzdk/st-jazznight-64.jpg', blurb: 'An intimate night of jazz standards and improvisation. Candlelit tables, smooth melodies, and performances that made time slow down.' },
+  { id: 'a3', title: 'Alive Concert', date: 'March 2026', tag: 'Open', img: 'https://i.ibb.co/RT8RkbCb/IMG-4475.jpg',  blurb: 'The biggest night of the season. A full-scale showcase featuring the best acts from NU Vocal Club — raw talent, live arrangements, and a crowd that wouldn't stop cheering.
+'},
 ];
 
 const MEMBERS = [
