@@ -161,9 +161,9 @@ const EVENTS = [
 ];
 
 const ARCHIVE = [
-{ id: 'a1', title: 'Spotify Vol 3', date: 'October 2025', tag: 'Headline', img: 'https://ibb.co.com/fhGhCdX' },
-  { id: 'a2', title: 'Jazz Nigth', date: 'February 2026', tag: 'Jazz Night', img: 'https://ibb.co.com/twCbBFTk' },
-  { id: 'a3', title: 'Alive Concert', date: 'March 2026', tag: 'Open', img: 'https://ibb.co.com/3mKg9d0d' },
+{ id: 'a1', title: 'Spotify Vol 3', date: 'October 2025', tag: 'Headline', img: 'https://i.ibb.co.com/CksknKw/VOCAL-111.jpg' },
+  { id: 'a2', title: 'Jazz Nigth', date: 'February 2026', tag: 'Jazz Night', img: 'https://i.ibb.co.com/sp3Fjzdk/st-jazznight-64.jpg' },
+  { id: 'a3', title: 'Alive Concert', date: 'March 2026', tag: 'Open', img: 'https://i.ibb.co.com/RT8RkbCb/IMG-4475.jpg' },
 ];
 
 const MEMBERS = [
