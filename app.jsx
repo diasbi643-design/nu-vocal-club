@@ -187,7 +187,6 @@ const NAV = [
   { id: 'home', label: 'Home' },
   { id: 'events', label: 'Events' },
   { id: 'archive', label: 'Archive' },
-  { id: 'members', label: 'Members' },
   { id: 'join', label: 'Join' },
 ];
 
