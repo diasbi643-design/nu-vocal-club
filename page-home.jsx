@@ -12,7 +12,12 @@ function HomePage({ theme, density, variant, onRoute, onPlay, onStop, playingId 
     poster: ["Voices,", "Live."],
   };
 
-  if (variant === 'poster') return <HomeHeroPoster {...{theme, density, onRoute, onPlay, onStop, playingId}}/>;
+ if (variant === 'poster') return (
+  <div>
+    <HomeHeroPoster {...{theme, density, onRoute, onPlay, onStop, playingId}}/>
+    <YouTubeSection theme={theme} density={density}/>
+  </div>
+);
   if (variant === 'split')  return <HomeHeroSplit  {...{theme, density, onRoute, onPlay, onStop, playingId}}/>;
   return <HomeHeroBento {...{theme, density, onRoute, onPlay, onStop, playingId}}/>;
 }
